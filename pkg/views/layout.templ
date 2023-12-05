@@ -1,0 +1,17 @@
+package views 
+
+
+templ Layout(children templ.Component) {
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Echo + Templ + Htmx</title>
+        <link rel="stylesheet" type="text/css" href="assets/output.css" />
+      </head>
+      <body class="min-h-screen w-full">
+        @children
+      </body>
+    </html>
+}
